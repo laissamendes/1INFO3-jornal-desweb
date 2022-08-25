@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "fontePrincipal";
+  src: url(newyorktimes.ttf);
+}
+h1 {
+  font-family: "fontePrincipal";
+  color: #014017;
+  font-size: 50px;
+  text-align: center;
+}
+footer{
+  background-color: #365902;
+  clear: both;
+}
+footer>p{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+body {
+  background-color: white;
+ 
+}
+a {
+  color: #014017;
+  font-size: 25px;
+  border-top: 10px;
+  font-family: "Newsreader", serif;
+  text-decoration: none;
+ 
+}
+a > strong {
+  border: 1px double gray;
+  border-radius: 10px;
+  animation-name: muda_cor;
+  animation-duration: 2s;
+  box-shadow: gray;
+  padding: 3px;
+}
+ul>li{
+  color: #2f402a;
+
+}
+p {
+  color: #2f402a;
+  font-family: "Newsreader", serif;
+  font-size: 15px;
+}
+
+h3{
+  color: #014017;
+  font-family: "Newsreader", serif;
+}
+h4{
+  color: #014017;
+  font-family: "Newsreader", serif;
+}
+h2{
+  color: #014017;
+  font-family: "Newsreader", serif;
+}
+small{
+  color: #014017;
+  font-family: "Newsreader", serif;
+}
+ul>li{
+  color: #014017;
+}
+@keyframes muda_cor2 {
+  0% {background-color:  white;}
+  50% {background-color: #36590254;}
+  100% {background-color:  white;}
+}

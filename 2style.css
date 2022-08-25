@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+header,nav,main,#logo-principal,#sticky,#sticky,#regiao-central,#titulo-principal {
+  border: 2px #365902 solid;
+}
+header {
+  display: flex;
+  
+}
+#logo-principal {
+  width: 150px;
+  height: 150px;
+}
+#titulo-principal {
+  width: 100%;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header>img{
+  margin: 15px;
+
+}
+main> article > img {
+  margin: 15px;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+main > p {
+  margin: 15px;
+}
+div#sticky {
+  position: sticky;
+  top: 5px;
+  padding: 5px;
+  font-size: 20px;
+  width: 100%;
+  background-color:  white;
+  text-align: center;
+ 
+}
+div#sticky > a {
+  margin: 5px 20px ;
+  
+}
+
+#sticky2{
+  width: 200px;
+  height: 500px;
+  position: sticky;
+  top: 49px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: white;
+  float: left;
+}
+#btnSubmeter{
+  text-decoration: none;
+  border: 1px double gray;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px gray;
+  margin-top: 20px;
+  animation-name: muda_cor;
+  animation-duration: 5s;
+  
+}
+#btnSubmeter>a:hover{
+ animation: muda_cor  5s;
+}
+#form{
+ text-align: center;
+ color: #2f402a;
+
+}
+@keyframes muda_cor {
+  0% {background-color:  white;}
+  50% {background-color: #365902;}
+  100% {background-color:  white;}
+}
